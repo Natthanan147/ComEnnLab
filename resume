@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natthanan Palakul - Resume</title>
+    <style>
+        /* รีเซ็ตค่าเริ่มต้น */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #4CAF50;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            font-size: 1.8em;
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .info {
+            font-size: 1.1em;
+            color: #555;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        /* เพิ่มสไตล์ให้ section ดูแตกต่างกันเล็กน้อย */
+        .experience, .education, .skills, .interests {
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Natthanan Palakul</h1>
+        <p>Email: <a href="mailto:palakul147@gmail.com">palakul147@gmail.com</a></p>
+        <p>สนใจงานด้านการพัฒนาชิป</p>
+
+        <div class="section experience">
+            <div class="section-title">ประสบการณ์ทำงาน</div>
+            <div class="info">
+                <p>ฝึกประสบการณ์ทำงานที่บริษัท พานาโซนิก</p>
+            </div>
+        </div>
+
+        <div class="section education">
+            <div class="section-title">การศึกษา</div>
+            <div class="info">
+                <p>กำลังศึกษาอยู่ที่มหาวิทยาลัยเทคโนโลยีธัญบุรี</p>
+                <p>สาขาวิชาวิศวกรรมคอมพิวเตอร์ ระดับปริญญาตรี</p>
+            </div>
+        </div>
+
+        <div class="section skills">
+            <div class="section-title">ทักษะ</div>
+            <div class="info">
+                <ul>
+                    <li>มีความเข้าใจพื้นฐานภาษาโปรแกรม Java, C, C++, C#, Python, HTML</li>
+                    <li>ปรับตัวเข้ากับผู้อื่นได้ดี</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section interests">
+            <div class="section-title">ความสนใจ</div>
+            <div class="info">
+                <p>สนใจด้านการทำงานของชิป การพัฒนา และการออกแบบ</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
